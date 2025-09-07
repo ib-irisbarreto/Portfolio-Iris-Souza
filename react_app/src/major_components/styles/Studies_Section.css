@@ -1,0 +1,66 @@
+/* ---------- Studies Section ---------- */
+/* Studies section wrapper */
+.studies-section {
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0%;
+  box-sizing: border-box;
+}
+/* grid of cards */
+.studies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+/* each study card */
+.study-card {
+  position: relative;
+  min-height: 480px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ddd;            /* fallback if image missing */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: flex-end;            /* text anchored to bottom */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.study-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.2);
+}
+.study-card:hover .study-overlay {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,0.475));
+}
+.study-card:hover .study-text {
+  transform: translateY(-5px);
+  color: #6d2c5b;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+/* faded overlay on top of the image to lower image contrast */
+.study-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(255,255,255,0.65));
+  z-index: 1;
+}
+/* text block above overlay */
+.study-text {
+  position: relative;
+  z-index: 2;
+  padding: 1.25rem 1.25rem;
+}
+/* a slightly different card style if you want the text centered */
+.study-card.center .study-text {
+  align-self: center;
+  text-align: center;
+}
+/* smaller screen tuning */
+@media (max-width: 703px) {
+  .study-card { min-height: 140px; }
+  .study-text { padding: 1rem; }
+}

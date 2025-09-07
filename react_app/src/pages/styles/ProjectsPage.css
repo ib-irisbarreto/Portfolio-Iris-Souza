@@ -1,0 +1,12 @@
+/* Page layout */
+.projects-page {
+  padding: 2.25rem 1.25rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #222;
+  max-width: 1440px;
+}
+/* responsive */
+@media (max-width: 720px) {
+  .projects-page { padding: 1rem; }
+}

@@ -1,0 +1,2 @@
+# Ignore video files in the public/videos directory
+react_app/public/videos/*

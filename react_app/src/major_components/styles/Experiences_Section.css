@@ -1,0 +1,94 @@
+/* ---------- Experiences Section ---------- */
+.experience-section {
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0%;
+  box-sizing: border-box;
+  background: transparent;
+  margin: 0 auto;
+}
+.experience-section-inner {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+.photo-collage {
+  flex: 0 0 48%;
+  min-width: 180px;
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: visible;
+  transition: transform 220ms ease, width 220ms ease, height 220ms ease;
+  contain: layout paint;
+}
+.photo-collage.column {
+  position: static;
+  aspect-ratio: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-bottom: 0.2rem;
+  flex: 0 0 auto;
+  min-width: 120px;
+}
+.photo-collage-item {
+  position: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 26px rgba(0,0,0,0.12);
+  transition: transform .28s cubic-bezier(.2,.9,.3,1), width .28s, height .28s, left .28s, top .28s;
+  z-index: 1;
+}
+.photo-collage-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.photo-collage-item.p1 { left: 6%; top: 10%; width: 54%; transform: rotate(-6deg); z-index: 4; }
+.photo-collage-item.p2 { right: 6%; top: 8%; width: 46%; transform: rotate(8deg); z-index: 5; }
+.photo-collage-item.p3 { left: 8%; bottom: 4%; width: 44%; transform: rotate(4deg); z-index: 3; }
+.photo-collage-item.p4 { right: 10%; bottom: 9%; width: 41%; transform: rotate(-8deg); z-index: 2; }
+.photo-collage-item.p5 { left: 26%; top: 32%; width: 45%; transform: rotate(10deg); z-index: 6; }
+.photo-collage-item.p6 { left: 48%; top: 16%; width: 36%; transform: rotate(-4deg); z-index: 7; }
+.photo-collage-item:hover {
+  transform: scale(1.24) translateY(-8px) rotate(0deg);
+  z-index: 99 !important;
+  box-shadow: 0 18px 44px rgba(0,0,0,0.18);
+}
+.experience-section-text {
+  flex: 1 1 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.2rem 0;
+  white-space: normal;
+  word-break: break-word;
+}
+.experience-section-text h3 {
+  margin: 0 0 0.8rem 0;
+  color: #6d2c5b;
+  font-size: clamp(1.15rem, 2.2vw, 1.6rem);
+  font-weight: 800;
+}
+.experience-section-text p {
+  margin: 0 0 1rem 0;
+  color: #333;
+  line-height: 1.6;
+  font-size: clamp(0.98rem, 1.5vw, 1.05rem);
+}
+@media (max-width: 720px) {
+  .experience-section-inner {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .photo-collage {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+}

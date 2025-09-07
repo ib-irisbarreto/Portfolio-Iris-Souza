@@ -1,0 +1,95 @@
+html, body, #root {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+.portfolio-root {
+  background: #f8f8f8;
+  min-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Add this at the very top of your App.css file */
+@font-face {
+  font-family: "AmericanoCond";
+  src: url("../assets/AmericanoCond.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Title for the details */
+.page-title {
+  margin: 0 0 0.75rem 0;
+  color: #6d2c5b;
+  font-size: clamp(1.6rem, 3.8vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+}
+.section-title {
+  margin: 0 0 0.75rem 0;
+  color: #6d2c5b;
+  font-size: clamp(1.4rem, 3.6vw, 2rem);
+  font-weight: 900;
+  letter-spacing: 0.2px;
+}
+.section-subtitle {
+  font-weight: 750;
+  font-size: clamp(1.25rem, 1.6vw, 1.2rem);
+  color: #2f2f2f;
+  margin-bottom: 0.25rem;
+}
+.normal-text {
+  font-size: clamp(0.95rem, 1.4vw, 1rem);
+  color: #4a4a4a;
+}
+.primary-text {
+  margin: 0;
+  color: #444;
+  font-size: clamp(1rem, 1.4vw, 1.1rem);
+  font-weight: 600;
+}
+.important-text {
+  margin: 0;
+  color: #6d2c5b;
+  font-size: clamp(1rem, 1.4vw, 1.1rem);
+  font-weight: 800;
+}
+.card {
+  background: #ffffff;
+  padding: 1.05rem 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  border-left: 6px solid rgba(109,44,91,0.95); /* accent bar */
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  /* transitions for smooth hover */
+  transition: transform 300ms cubic-bezier(.2,.9,.3,1), box-shadow 300ms ease, border-color 300ms ease;
+  will-change: transform, box-shadow, border-color;
+}
+
+/* hover + focus-visible for keyboard accessibility */
+.card:hover,
+.card:focus-within {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.14);
+  border-left-color: rgba(109,44,91,1);
+}
+
+/* Optional: highlight first line or title within the card on hover */
+.card:hover .section-subtitle,
+.card:focus-within .section-subtitle {
+  color: #521642;
+  transition: color 220ms ease;
+}
+.card:focus-within {
+  outline: 3px solid rgba(109,44,91,0.12);
+  outline-offset: 6px;
+}

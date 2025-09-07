@@ -1,0 +1,112 @@
+/* ---------- Recommended slider (two-pages-of-3) ---------- */
+.project-recommended {
+  margin-top: 1.4rem;
+  position: relative;
+}
+.recommended-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.recommended-header h2 {
+	margin: 0;
+	color: #6d2c5b;
+}
+.recommended-header .muted {
+	margin: 0;
+	color: #666;
+	font-size: 0.95rem;
+}
+.recommended-controls {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+.rec-btn {
+	width: 36px;
+	height: 36px;
+	border-radius: 999px;
+	border: none;
+	background: #fff;
+	color: #6d2c5b;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 160ms ease;
+}
+.rec-btn:disabled {
+	opacity: 0.45;
+	cursor: default;
+	transform: none;
+	box-shadow: none;
+}
+.rec-btn:hover:not(:disabled) {
+	transform: translateY(-2px);
+}
+.rec-dots {
+	display:flex;
+	gap: 8px;
+	align-items: center;
+}
+.rec-dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 999px;
+	background: rgba(0,0,0,0.12);
+	border: none;
+	cursor: pointer;
+}
+.rec-dot.active {
+	background: #6d2c5b;
+	transform: scale(1.05);
+}
+/* small style niceties */
+.rec-btn, .rec-dot {
+	transition: all 150ms ease;
+}
+/* slider viewport contains the flex-wide slider */
+.recommended-slider-viewport {
+	overflow: hidden;
+	margin-top: 0.9rem;
+}
+.recommended-slider {
+	display: flex;
+	transition: transform 420ms cubic-bezier(.2,.9,.3,1);
+	width: 200%; /* adjusts inline if more pages */
+}
+.recommended-page {
+	padding: 0.25rem;
+	box-sizing: border-box;
+}
+.recommended-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.8rem;
+	margin-top: 0.6rem;
+	margin-bottom: 4rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+}
+.recommended-card-wrapper .project-card {
+	height: 200px;
+	border-radius: 10px;
+}
+/* responsive: when only 1-2 recommended items, center them */
+.recommended-grid > .recommended-card-wrapper:only-child {
+	justify-self: center;
+	grid-column: 1 / -1;
+	max-width: 420px;
+}
+@media (max-width: 820px) {
+  .recommended-grid {
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		grid-template-columns: 1fr !important; /* stack cards vertically */
+		gap: 0.8rem;
+  }
+  .recommended-slider {
+    width: 100%;
+	} /* one page fits */
+}

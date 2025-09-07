@@ -1,0 +1,49 @@
+/* Controls row (filters) */
+.projects-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0 1.5rem 0;
+  flex-wrap: wrap;
+}
+/* control grouping */
+.controls-left, .controls-right {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* individual control */
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.control-label {
+  font-size: 0.8rem;
+  color: #555;
+}
+.control input[type="search"],
+.control select {
+  padding: 0.45rem 0.6rem;
+  border-radius: 20px;
+  border: 1.0px solid #444;
+  background: linear-gradient(90deg, #ffa4cb 0%, #ff93c2 50%, #ffb9a2 100%);
+  box-shadow: 0 2px 8px rgba(184,74,124,0.08) inset;
+  color: #444;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.control select:focus {
+  border-color: #6d2c5b;
+  box-shadow: 0 0 0 2px rgba(184,74,124,0.15);
+}
+.control option {
+  color: #444;
+  background: #fff;
+  border-radius: 12px;
+}
+@media (max-width: 720px) {
+  .control input[type="search"], .control select { min-width: 120px; }
+}

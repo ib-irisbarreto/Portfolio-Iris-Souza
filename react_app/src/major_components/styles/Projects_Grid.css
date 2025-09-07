@@ -1,0 +1,15 @@
+/* Grid of cards */
+.projects-grid-section {
+  margin-top: 1rem;
+}
+.projects-grid {
+  display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1rem;
+}
+/* no results */
+.no-results {
+  padding: 2rem;
+  color: #222;
+  text-align: center;
+}

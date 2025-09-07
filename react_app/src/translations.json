@@ -1,0 +1,133 @@
+{
+  "en": {
+    "nav_cv": "Curriculum",
+    "nav_home": "Home",
+    "nav_projects": "Projects",
+
+    "home_header_lineOne": "Hello,",
+    "home_header_lineTwo": "I'm Iris!",
+
+    "home_aboutMe_title": "About Me",
+    "home_aboutMe_name_title": "Name",
+    "home_aboutMe_name": "Iris",
+    "home_aboutMe_age_title": "Age",
+    "home_aboutMe_age": "21",
+    "home_aboutMe_city_title": "City",
+    "home_aboutMe_city": "Coimbra",
+    "home_aboutMe_description_title": "Description",
+    "home_aboutMe_description": "Description placeholder.",
+
+    "home_studies_title": "Studies",
+
+    "home_exp_title": "Experiences",
+    "home_exp_subtitle": "Work Experiences",
+    "home_exp_description": "Description placeholder.",
+
+
+
+    "projects_header_title": "Projects",
+    "projects_header_description": "Selected work — click a card to see details.",
+
+    "projects_filters_search": "Search",
+    "projects_filters_searchPlaceholder": "Search by project title...",
+    "projects_filters_type": "Type",
+    "projects_filters_sort": "Sort",
+    "projects_filters_sortDateDesc": "Release Date ↓",
+    "projects_filters_sortDateAsc": "Release Date ↑",
+    "projects_filters_sortAlphaDesc": "Title Z → A",
+    "projects_filters_sortAlphaAsc": "Title A → Z",
+    "projects_filter_all": "All",
+
+    "projects_grid_noResults": "No results found.",
+
+    "projects_footer_projectsShown": "project(s) shown",
+
+
+
+    "projectsDetails_notFound": "Project not found",
+    "projectsDetails_tryReturn": "Try going back to the ",
+    "projectsDetails_projectsList": "projects list",
+
+    "projectsDetails_header_noMedia": "No image/video available",
+    "projectsDetails_header_releaseDate": "Release:",
+
+    "projectsDetails_content_title": "Overview",
+
+    "projectsDetails_rec_title": "Recommended",
+    "projectsDetails_rec_subtitle": "Projects you may also like",
+
+    "projectsDetails_footer_backToProjects": "Back to projects",
+
+
+
+    "videoPlayer_loading": "Loading...",
+    "videoPlayer_error": "Video error"
+  },
+  "pt-pt": {
+    "nav_cv": "Currículo",
+    "nav_home": "Início",
+    "nav_projects": "Projetos",
+
+
+
+    "home_header_lineOne": "Olá,",
+    "home_header_lineTwo": "Eu sou a Iris!",
+
+    "home_aboutMe_title": "Sobre Mim",
+    "home_aboutMe_name_title": "Nome",
+    "home_aboutMe_name": "Iris",
+    "home_aboutMe_age_title": "Idade",
+    "home_aboutMe_age": "21",
+    "home_aboutMe_city_title": "Cidade",
+    "home_aboutMe_city": "Coimbra",
+    "home_aboutMe_description_title": "Descrição",
+    "home_aboutMe_description": "Descrição placeholder.",
+
+    "home_studies_title": "Formação Académica",
+
+    "home_exp_title": "Experiências",
+    "home_exp_subtitle": "Experiências de Trabalho",
+    "home_exp_description": "Descrição placeholder.",
+
+
+
+    "projects_header_title": "Projetos",
+    "projects_header_description": "Trabalhos selecionados — clique num cartão para ver detalhes.",
+
+    "projects_filters_search": "Pesquisar",
+    "projects_filters_searchPlaceholder": "Pesquisar por título do projeto...",
+    "projects_filters_type": "Tipo",
+    "projects_filters_sort": "Ordenar Por",
+    "projects_filters_sortDateDesc": "Data de Lançamento ↓",
+    "projects_filters_sortDateAsc": "Data de Lançamento ↑",
+    "projects_filters_sortAlphaDesc": "Título Z → A",
+    "projects_filters_sortAlphaAsc": "Título A → Z",
+    "projects_filter_all": "Todos",
+
+    "projects_grid_noResults": "Nenhum resultado encontrado.",
+
+    "projects_footer_projectsShown": "projeto(s) mostrado(s)",
+
+
+
+    "projectsDetails_notFound": "Projeto não encontrado",
+    "projectsDetails_tryReturn": "Tente voltar à ",
+    "projectsDetails_projectsList": "lista de projetos",
+
+    "projectsDetails_header_releaseDate": "Data de realização:",
+    "projectsDetails_header_noMedia": "Sem imagem/vídeo disponível",
+
+    "projectsDetails_content_title": "Visão Geral",
+
+
+    "projectsDetails_rec_title": "Recomendados",
+    "projectsDetails_rec_subtitle": "Projetos que também pode gostar",
+
+    "projectsDetails_footer_backToProjects": "Voltar aos projetos",
+  
+
+
+    "videoPlayer_loading": "A carregar...",
+    "videoPlayer_error": "Erro de vídeo"
+  }
+}
