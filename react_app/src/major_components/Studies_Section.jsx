@@ -57,14 +57,9 @@ export default function StudiesSection() {
 
             {/* text sits above the overlay */}
             <div className="study-text">
-              <div className="section-subtitle" style={{
-                fontSize: 'clamp(1.4rem, 3.6vw, 2rem)',
-                lineHeight: '0.5'
-                }}>{study.level[lang]}</div>
-              <div className="section-subtitle" style={{
-                fontSize: 'clamp(1.4rem, 3.6vw, 2rem)',
-                }}>{study.course[lang]}</div>
-              <div className="normal-text" style={{fontSize: 'clamp(1.25rem, 1.6vw, 1.2rem)'}}>{study.school[lang]}</div>
+              <div className="section-subtitle-bigger" style={{ lineHeight: '0.5' }}>{study.level[lang]}</div>
+              <div className="section-subtitle-bigger" >{study.course[lang]}</div>
+              <div className="normal-text-bigger">{study.school[lang]}</div>
             </div>
           </article>
         ))}

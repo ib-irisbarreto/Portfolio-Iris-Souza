@@ -2,29 +2,29 @@ const projects = [
   {
     id: "p1",
     title: {
-      en: "",
+      en: "test title long",
       "pt-pt": ""
     },
     type: {
-      en: "",
+      en: "test_type",
       "pt-pt": ""
     },
     tags: {
-      en: [""],
+      en: ["test_tag"],
       "pt-pt": [""]
     },
-    releaseDate: "",
+    releaseDate: "10/10/2025",
     image: "/photos/projects/Agenda-2025-05_(01-07)/Agenda-2025-05_(01-07)-1.png",
     carouselItems:[
       { type: "image", src: "/photos/projects/Agenda-2025-05_(01-07)/Agenda-2025-05_(01-07)-1.png" },
       { type: "image", src: "/photos/projects/Agenda-2025-05_(01-07)/Agenda-2025-05_(01-07)-2.png" }
     ],
     short: {
-      en: "",
+      en: "test short description kinda long long long long long long long long long long long long long.",
       "pt-pt": ""
     },
     description: {
-      en: "",
+      en: "test description very long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long long text",
       "pt-pt": ""
     }
   },

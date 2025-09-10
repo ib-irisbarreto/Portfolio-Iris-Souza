@@ -52,20 +52,25 @@ export default function ProjectDetailsHeader({
           })()
         )}
       </div>
-      <div className="project-details-hero-inner">
-        <div>
-          <div className="project-type-pill">{project.type[lang]}</div>
-          {project.tags && project.tags[lang] && (
-          <div className="project-tags">
-            {project.tags[lang].map((tag, idx) => (
-              <span className="project-tag" key={idx}>{tag}</span>
-            ))}
-          </div>
-        )}
+      {project.tags && project.tags[lang] && (
+        <div className="project-details-tags">
+          {project.tags[lang].map((tag, idx) => (
+            <span className="project-details-tag" key={idx}>
+              <div className="normal-text-small" style={{ color: "#fff" }}>{tag}</div>
+            </span>
+          ))}
         </div>
-        
-        <h1>{project.title[lang]}</h1>
-        <div className="project-date">{t("projectsDetails_header_releaseDate")} {project.releaseDate}</div>
+      )}
+      <div className="project-details-hero-inner">
+        <div className="project-details-type">
+          <div className="normal-text" style={{ color: "#fff" }}>{project.type[lang]}</div>
+        </div>
+        <div className="project-details-title">
+          <div className="section-subtitle" style={{ color: "#fff" }}>{project.title[lang]}</div>
+        </div>
+        <div className="project-date">
+          <div className="normal-text-small" style={{ color: "#fff" }}>{t("projectsDetails_header_releaseDate")} {project.releaseDate}</div>
+        </div>
         
       </div>
       {slidesCount > 1 && (

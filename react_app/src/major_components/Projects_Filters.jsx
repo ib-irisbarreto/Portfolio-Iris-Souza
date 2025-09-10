@@ -17,7 +17,7 @@ export default function ProjectsFilters({
     <section className="projects-controls">
       <div className="controls-left">
         <label className="control">
-          <span className="control-label">{t("projects_filters_search")}</span>
+          <span className="filters-name">{t("projects_filters_search")}</span>
           <input
             type="search"
             value={query}
@@ -27,7 +27,7 @@ export default function ProjectsFilters({
         </label>
 
         <label className="control">
-          <span className="control-label">{t("projects_filters_type")}</span>
+          <span className="filters-name">{t("projects_filters_type")}</span>
           <select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value)}>
             {types.map((t) => (
               <option key={t} value={t}>
@@ -40,7 +40,7 @@ export default function ProjectsFilters({
 
       <div className="controls-right">
         <label className="control">
-          <span className="control-label">{t("projects_filters_sort")}</span>
+          <span className="filters-name">{t("projects_filters_sort")}</span>
           <select value={sortOption} onChange={(e) => setSortOption(e.target.value)} aria-label="Sort projects">
             <option value="date:desc">{t("projects_filters_sortDateDesc")}</option>
             <option value="date:asc">{t("projects_filters_sortDateAsc")}</option>

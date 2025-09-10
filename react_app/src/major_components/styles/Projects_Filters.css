@@ -20,10 +20,6 @@
   flex-direction: column;
   gap: 0.35rem;
 }
-.control-label {
-  font-size: 0.8rem;
-  color: #555;
-}
 .control input[type="search"],
 .control select {
   padding: 0.45rem 0.6rem;

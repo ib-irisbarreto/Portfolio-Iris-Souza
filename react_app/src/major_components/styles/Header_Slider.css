@@ -55,18 +55,11 @@
   background-repeat: no-repeat;
 }
 .slider-text {
-  position: absolute;
+  position: relative;
   top: 20%;
-  left: 10vw;
+  right: 25%;
   transform: translateY(-50%);
   z-index: 3;
-  color: #6d2c5b;
-  font-size: clamp(1.7rem, 5vw, 3.2rem);
-  font-weight: 700;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
-}
-.slider-text span {
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
 }
 .slider-btn {
   position: absolute;

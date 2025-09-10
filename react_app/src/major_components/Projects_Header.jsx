@@ -10,7 +10,7 @@ export default function ProjectsHeader() {
   return (
     <section className="projects-hero">
       <h1 className="page-title">{t("projects_header_title")}</h1>
-      <p className="primary-text">{t("projects_header_description")}</p>
+      <p className="normal-text-bold" style={{ margin: 0 }}>{t("projects_header_description")}</p>
     </section>
   );
 }

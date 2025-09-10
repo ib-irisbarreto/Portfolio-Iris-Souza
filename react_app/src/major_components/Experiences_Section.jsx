@@ -28,8 +28,8 @@ export default function ExperiencesSection() {
         </div>
 
         <div className="experience-section-text">
-          <h3>{t("home_exp_subtitle")}</h3>
-          <p>{t("home_exp_description")}</p>
+          <h3 className="section-subtitle-bigger">{t("home_exp_subtitle")}</h3>
+          <p className="normal-text-bigger">{t("home_exp_description")}</p>
         </div>
       </div>
     </section>

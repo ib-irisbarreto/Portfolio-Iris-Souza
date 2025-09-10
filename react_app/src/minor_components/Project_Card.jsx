@@ -23,15 +23,23 @@ export default function ProjectCard({ project, lang }) {
     >
       <div className="project-card-inner">
         <div className="project-meta">
-          <div className="project-type">{project.type[lang]}</div>
+          <div className="project-type">
+            <div className="normal-text" style={{ color: "#fff" }}>{project.type[lang]}</div>
+          </div>
         </div>
-        <h3 className="project-title">{project.title[lang]}</h3>
-        <div className="project-short">{project.short[lang]}</div>
+        <h3 className="project-title">
+          <div className="section-subtitle" style={{ color: "#fff", paddingBottom: "0rem" }}>{project.title[lang]}</div>
+        </h3>
+        <div className="project-short">
+          <div className="normal-text" style={{ color: "#fff" }}>{project.short[lang]}</div>
+        </div>
       </div>
       {project.tags && project.tags[lang] && (
         <div className="project-tags">
           {project.tags[lang].map((tag, idx) => (
-            <span className="project-tag" key={idx}>{tag}</span>
+            <span className="project-tag" key={idx}>
+              <div className="normal-text-small" style={{ color: "#fff" }}>{tag}</div>
+            </span>
           ))}
         </div>
       )}

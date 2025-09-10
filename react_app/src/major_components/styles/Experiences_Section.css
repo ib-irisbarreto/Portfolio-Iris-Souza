@@ -67,18 +67,6 @@
   white-space: normal;
   word-break: break-word;
 }
-.experience-section-text h3 {
-  margin: 0 0 0.8rem 0;
-  color: #6d2c5b;
-  font-size: clamp(1.15rem, 2.2vw, 1.6rem);
-  font-weight: 800;
-}
-.experience-section-text p {
-  margin: 0 0 1rem 0;
-  color: #333;
-  line-height: 1.6;
-  font-size: clamp(0.98rem, 1.5vw, 1.05rem);
-}
 @media (max-width: 720px) {
   .experience-section-inner {
     flex-wrap: wrap;

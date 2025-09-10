@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "AmericanoCond";
+  src: url("./assets/AmericanoCond.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body, #root {
   width: 100%;
   overflow-x: hidden;
@@ -14,15 +21,14 @@ html, body, #root {
   overflow-x: hidden;
 }
 
-/* Add this at the very top of your App.css file */
-@font-face {
-  font-family: "AmericanoCond";
-  src: url("../assets/AmericanoCond.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+/* ------------------------------------ FONT STYLES ------------------------------------ */
+/* NOTE: To change the font of navbar, go to Navbar.css in major_components/styles/Navbar.css */
+.home-slider-text {
+  color: #6d2c5b;
+  font-size: clamp(1.7rem, 5vw, 3.2rem);
+  font-weight: 700;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
 }
-
-/* Title for the details */
 .page-title {
   margin: 0 0 0.75rem 0;
   color: #6d2c5b;
@@ -37,29 +43,51 @@ html, body, #root {
   font-size: clamp(1.4rem, 3.6vw, 2rem);
   font-weight: 900;
   letter-spacing: 0.2px;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
 }
 .section-subtitle {
   font-weight: 750;
   font-size: clamp(1.25rem, 1.6vw, 1.2rem);
   color: #2f2f2f;
   margin-bottom: 0.25rem;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+}
+.section-subtitle-bigger {
+  font-weight: 750;
+  font-size: clamp(1.4rem, 3.6vw, 2rem);
+  color: #2f2f2f;
+  margin-bottom: 0.25rem;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+}
+.normal-text-small {
+  font-size: clamp(0.85rem, 1vw, 0.9rem);
+  color: #444;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
 }
 .normal-text {
   font-size: clamp(0.95rem, 1.4vw, 1rem);
-  color: #4a4a4a;
-}
-.primary-text {
-  margin: 0;
   color: #444;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+}
+.normal-text-bold {
   font-size: clamp(1rem, 1.4vw, 1.1rem);
   font-weight: 600;
+  color: #444;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
 }
-.important-text {
-  margin: 0;
-  color: #6d2c5b;
-  font-size: clamp(1rem, 1.4vw, 1.1rem);
-  font-weight: 800;
+.normal-text-bigger {
+  font-size: clamp(1.25rem, 1.6vw, 1.2rem);
+  color: #444;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
 }
+.filters-name {
+  font-size: clamp(0.9rem, 1vw, 0.8rem);
+  font-weight: 600;
+  color: #444;
+  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+}
+
+
 .card {
   background: #ffffff;
   padding: 1.05rem 1.25rem;

@@ -80,9 +80,9 @@ useEffect(() => {
 			</div>
 			{/* End sliding image backgrounds */}
 			<div className="slider-text">
-				<span>{t("home_header_lineOne")}</span>
+				<div className="home-slider-text">{t("home_header_lineOne")}</div>
 				<br/>
-				<span>{t("home_header_lineTwo")}</span>
+				<div className="home-slider-text">{t("home_header_lineTwo")}</div>
 			</div>
 			
 			{/* Left (previous) button */}

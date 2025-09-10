@@ -21,8 +21,8 @@ export default function ProjectDetailsRecommendations({
     <section className="project-recommended">
       <div className="recommended-header">
         <div>
-          <h2>{t("projectsDetails_rec_title")}</h2>
-          <p className="muted">{t("projectsDetails_rec_subtitle")}</p>
+          <div className="section-title" style={{ margin: 0 }}>{t("projectsDetails_rec_title")}</div>
+          <div className="normal-text-bold">{t("projectsDetails_rec_subtitle")}</div>
         </div>
         {recommendedPages.length > 1 && (
           <div className="recommended-controls">

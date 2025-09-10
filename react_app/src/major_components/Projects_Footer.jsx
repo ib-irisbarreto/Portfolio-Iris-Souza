@@ -8,7 +8,7 @@ import "./styles/Projects_Footer.css";
 export default function ProjectsFooter({ count }) {
   return (
     <section className="projects-footer">
-      <small>{count} {t("projects_footer_projectsShown")}</small>
+        <div className="normal-text-small">{count} {t("projects_footer_projectsShown")}</div>
     </section>
   );
 }

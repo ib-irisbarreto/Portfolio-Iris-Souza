@@ -11,10 +11,10 @@ import './styles/Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
+      <NavLink to="/">
+        <img src={logo} alt="Logo" className="navbar-logo" />
+      </NavLink>
       <div className="navbar-inner">
-        <NavLink to="/">
-          <img src={logo} alt="Logo" className="navbar-logo" />
-        </NavLink>
         <ul className="navbar-menu">
           <li>
             <a
