@@ -5,11 +5,11 @@ import { t } from "../translations";
 
 
 const experiencesPhotos = [
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg'
+  '/photos/home/Experiences/1.jpg',
+  '/photos/home/Experiences/2.jpg',
+  '/photos/home/Experiences/3.jpg',
+  '/photos/home/Experiences/4.jpg',
+  '/photos/home/Experiences/5.jpg'
 ];
 
 
@@ -28,8 +28,13 @@ export default function ExperiencesSection() {
         </div>
 
         <div className="experience-section-text">
-          <h3 className="section-subtitle-bigger">{t("home_exp_subtitle")}</h3>
-          <p className="normal-text-bigger">{t("home_exp_description")}</p>
+          <div className="experience-section-text">
+            {t("home_exp_description")
+              .split(/\n\n/)
+              .map((paragraph, idx) => (
+                <p className="normal-text-bigger" key={idx}>{paragraph}</p>
+              ))}
+          </div>
         </div>
       </div>
     </section>

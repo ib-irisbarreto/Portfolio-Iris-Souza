@@ -27,9 +27,7 @@
   background: #222;
 }
 
-@media (min-width: 1000px) {
-  .carousel-hero { height: 500px; }
-}
+
 .carousel-viewport {
   position: absolute;
   inset: 0;
@@ -200,4 +198,24 @@
   padding: 0.12rem 0.6rem;
   border-radius: 999px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+
+.carousel-btn.fullscreen {
+  position: absolute;
+  top: 310px;
+  right: 30px;
+  z-index: 10;
+  background: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  border: none;
+  width: 44px;
+  height: 44px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .carousel-hero { height: 500px; }
+  .carousel-btn.fullscreen { top: 450px; }
 }

@@ -4,7 +4,7 @@ import '../App.css'
 import { t } from "../translations";
 
 
-const profileImage = '/photos/ipb.jpg'
+const profileImage = '/photos/home/About/1.jpg'
 
 
 export default function AboutSection() {

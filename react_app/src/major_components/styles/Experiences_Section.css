@@ -51,7 +51,7 @@
 .photo-collage-item.p2 { right: 6%; top: 8%; width: 46%; transform: rotate(8deg); z-index: 5; }
 .photo-collage-item.p3 { left: 8%; bottom: 4%; width: 44%; transform: rotate(4deg); z-index: 3; }
 .photo-collage-item.p4 { right: 10%; bottom: 9%; width: 41%; transform: rotate(-8deg); z-index: 2; }
-.photo-collage-item.p5 { left: 26%; top: 32%; width: 45%; transform: rotate(10deg); z-index: 6; }
+.photo-collage-item.p5 { left: 24%; top: 37%; width: 53%; transform: rotate(7deg); z-index: 6; }
 .photo-collage-item.p6 { left: 48%; top: 16%; width: 36%; transform: rotate(-4deg); z-index: 7; }
 .photo-collage-item:hover {
   transform: scale(1.24) translateY(-8px) rotate(0deg);
@@ -67,7 +67,7 @@
   white-space: normal;
   word-break: break-word;
 }
-@media (max-width: 720px) {
+@media (max-width: 1400px) {
   .experience-section-inner {
     flex-wrap: wrap;
     flex-direction: column;

@@ -6,11 +6,11 @@ import './styles/Header_Slider.css';
 
 
 const sliderImages = [
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
-  '/photos/ipb.jpg',
+  '/photos/home/Header/1.jpg',
+  '/photos/home/Header/2.jpg',
+  '/photos/home/Header/3.jpg',
+  '/photos/home/Header/4.jpg',
+  '/photos/home/Header/5.jpg'
 ];
 
 

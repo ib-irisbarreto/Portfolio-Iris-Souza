@@ -31,7 +31,7 @@ export default function ProjectCard({ project, lang }) {
           <div className="section-subtitle" style={{ color: "#fff", paddingBottom: "0rem" }}>{project.title[lang]}</div>
         </h3>
         <div className="project-short">
-          <div className="normal-text" style={{ color: "#fff" }}>{project.short[lang]}</div>
+          <div className="normal-text" style={{ color: "#fff", lineHeight: "16px" }}>{project.short[lang]}</div>
         </div>
       </div>
       {project.tags && project.tags[lang] && (

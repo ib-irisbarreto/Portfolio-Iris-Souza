@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "AmericanoCond";
-  src: url("../../assets/AmericanoCond.otf") format("opentype");
+  font-family: "MinionPro-SemiboldCn_1";
+  src: url("../../assets/fonts/MinionPro-SemiboldCn_1.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -54,7 +54,7 @@
   border-radius: 12px;
   transition: all 0.2s ease;
   display: inline-block;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "MinionPro-SemiboldCn_1", 'Segoe UI', Arial, sans-serif !important;
 }
 .navbar-menu li a:hover {
   transform: translateY(-2px);

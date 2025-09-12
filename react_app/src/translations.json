@@ -9,19 +9,18 @@
 
     "home_aboutMe_title": "About Me",
     "home_aboutMe_name_title": "Name",
-    "home_aboutMe_name": "Iris",
+    "home_aboutMe_name": "Iris Barreto de Souza",
     "home_aboutMe_age_title": "Age",
     "home_aboutMe_age": "21",
     "home_aboutMe_city_title": "City",
     "home_aboutMe_city": "Coimbra",
     "home_aboutMe_description_title": "Description",
-    "home_aboutMe_description": "Description placeholder.",
+    "home_aboutMe_description": "I always strive to improve my skills, and I am very dedicated to everything I set out to do. During university and my internship, I learned a lot about working in a team and how important teamwork is. At the same time, I believe I am very versatile, currently working in different areas at Caminhos do Cinema Português (where I am currently volunteering until the start of my professional internship). By taking on many design-related tasks, my creativity has flourished, as well as my effort to learn a field I didn’t know much about and which has now become my main work in volunteering.",
 
     "home_studies_title": "Studies",
 
     "home_exp_title": "Experiences",
-    "home_exp_subtitle": "Work Experiences",
-    "home_exp_description": "Description placeholder.",
+    "home_exp_description": "Recently graduated in Communication and Journalism from the Polytechnic Institute of Bragança, at the School of Communication, Administration and Tourism, I work professionally in the fields of design and communication at Caminhos do Cinema Português – Association of Cinematic Arts, where I have a professional internship already accepted and about to begin. Even so, I have great interest in several areas, especially design, communication, and audiovisuals in general, always seeking out new passions and deepening the ones I already have, mainly with a focus on improving my cultural knowledge and experimenting with new points of view, in order to encourage my critical thinking.\n\nI took part in extracurricular projects during university, thereby strengthening my higher education journey, with a project I value greatly, Mentoring Academy, for its many activities—mainly teamwork—which make Mirandela/Bragança feel like home to many people who arrive, both Erasmus students and Portuguese students.\n\nAlthough I have already experienced different fields of work throughout my life, such as event organization, printing, catering, and others (mostly as summer jobs), I believe I am very versatile and always strive to carry out my work with care and quality.",
 
 
 
@@ -61,7 +60,14 @@
 
 
     "videoPlayer_loading": "Loading...",
-    "videoPlayer_error": "Video error"
+    "videoPlayer_error": "Video error",
+
+    "site_footer_title": "Contact & Social",
+    "site_footer_github": "GitHub",
+    "site_footer_linkedin": "LinkedIn",
+    "site_footer_instagram": "Instagram",
+    "site_footer_copyright_client": "Iris Souza",
+    "site_footer_copyright_designer": "Site by Gonçalo Gaio"
   },
   "pt-pt": {
     "nav_cv": "Currículo",
@@ -75,19 +81,18 @@
 
     "home_aboutMe_title": "Sobre Mim",
     "home_aboutMe_name_title": "Nome",
-    "home_aboutMe_name": "Iris",
+    "home_aboutMe_name": "Iris Barreto de Souza",
     "home_aboutMe_age_title": "Idade",
     "home_aboutMe_age": "21",
     "home_aboutMe_city_title": "Cidade",
     "home_aboutMe_city": "Coimbra",
     "home_aboutMe_description_title": "Descrição",
-    "home_aboutMe_description": "Descrição placeholder.",
+    "home_aboutMe_description": "Eu procuro sempre melhorar minhas capacidades, sou muito empenhada no que me proponho a fazer, durante a universidade e meu estágio aprendi muito a trabalhar em equipa e o quão importante o trabalho em equipa é, mas ao mesmo tempo acredito ser muito versátil, atuando em diversas áreas atualmente nos Caminhos do Cinema Português (que atualmente realizo voluntariado até o início do estágio profissional). Por realizar muitas tarefas da área do design, a criatividade foi se aflorando em mim, assim como meu esforço para aprender um setor na qual não conhecia muito e atualmente é meu principal trabalho no voluntariado.",
 
     "home_studies_title": "Formação Académica",
 
     "home_exp_title": "Experiências",
-    "home_exp_subtitle": "Experiências de Trabalho",
-    "home_exp_description": "Descrição placeholder.",
+    "home_exp_description": "Recém licenciada em Comunicação e Jornalismo pelo Instituto Politécnico de Bragança, na Escola Superior de Comunicação, Administração e Turismo, atuo como profissionalmente na área do design e da comunicação nos Caminhos do Cinema Português - Associação de Artes Cinematográficas, onde possuo estágio profissional aceito, quase a iniciar. Ainda assim, possuo muito interesse em diversas áreas, principalmente em design, comunicação e audiovisual no geral, sempre procurando novos gostos e aprofundando os que já possuo, principalmente com foco em aperfeiçoar minha cultura e experimentar novos pontos de vista, de forma a incentivar meu pensamento crítico.\n\nParticipei em projetos extracurriculares durante a faculdade, consolidando assim meu processo no ensino superior, com um projeto que aprecio muito, Mentoring Academy, por suas diversas atividades, principalmente em equipa, que tornam Mirandela/Bragança casa à muitas pessoas que vêm, tanto de Erasmus quanto estudantes portugueses.\n\nAinda que já tenha experimentado diversas áreas de trabalho ao longo da vida, como realização de eventos,gráfica, restauração e outros, todos como trabalho de verão principalmente, acredito ser muito versátil e que procura realizar o trabalho de forma bem feita.",
 
 
 
@@ -128,6 +133,13 @@
 
 
     "videoPlayer_loading": "A carregar...",
-    "videoPlayer_error": "Erro de vídeo"
+    "videoPlayer_error": "Erro de vídeo",
+
+    "site_footer_title": "Contactos & Redes Sociais",
+    "site_footer_github": "GitHub",
+    "site_footer_linkedin": "LinkedIn",
+    "site_footer_instagram": "Instagram",
+    "site_footer_copyright_client": "Iris Souza",
+    "site_footer_copyright_designer": "Site por Gonçalo Gaio"
   }
 }

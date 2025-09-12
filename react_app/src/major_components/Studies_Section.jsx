@@ -8,17 +8,17 @@ const studies = [
   {
     level: {
       en: "Secondary",
-      "pt-pt": "Secundário"
+      "pt-pt": "Ensino Secundário"
     },
     course: {
       en: "Science and Technology",
-      "pt-pt": "Ciências e Tecnologia"
+      "pt-pt": "Ciências e Tecnologias"
     },
     school: {
       en: "Mondim de Basto Basic and Secondary School",
       "pt-pt": "Escola Básica e Secundária de Mondim de Basto"
     },
-    image: '/photos/ipb.jpg'
+    image: '/photos/home/Studies/1.jpg'
   },
   {
     level: {
@@ -33,7 +33,7 @@ const studies = [
       en: "Polytechnic Institute of Bragança",
       "pt-pt": "Instituto Politécnico de Bragança"
     },
-    image: '/photos/ipb.jpg'
+    image: '/photos/home/Studies/2.jpg'
   },
 ];
 

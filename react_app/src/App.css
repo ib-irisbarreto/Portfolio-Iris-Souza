@@ -1,9 +1,54 @@
 @font-face {
-  font-family: "AmericanoCond";
-  src: url("./assets/AmericanoCond.otf") format("opentype");
+  font-family: "MagnesiumMVBStd-Grime_1";
+  src: url("./assets/fonts/MagnesiumMVBStd-Grime_1.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Amaranth-Bold";
+  src: url("./assets/fonts/Amaranth-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Asul700";
+  src: url("./assets/fonts/Asul700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITC_Avant_Garde_Gothic_LT_Book";
+  src: url("./assets/fonts/ITC_Avant_Garde_Gothic_LT_Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ITC_Avant_Garde_Gothic_LT_Demi";
+  src: url("./assets/fonts/ITC_Avant_Garde_Gothic_LT_Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MinionPro-Cn_4";
+  src: url("./assets/fonts/MinionPro-Cn_4.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MinionPro-SemiboldCn_1";
+  src: url("./assets/fonts/MinionPro-SemiboldCn_1.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proforma-LightItalic";
+  src: url("./assets/fonts/Proforma-LightItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 
 html, body, #root {
   width: 100%;
@@ -27,7 +72,7 @@ html, body, #root {
   color: #6d2c5b;
   font-size: clamp(1.7rem, 5vw, 3.2rem);
   font-weight: 700;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "MagnesiumMVBStd-Grime_1", 'Segoe UI', Arial, sans-serif !important;
 }
 .page-title {
   margin: 0 0 0.75rem 0;
@@ -35,7 +80,7 @@ html, body, #root {
   font-size: clamp(1.6rem, 3.8vw, 2.4rem);
   font-weight: 800;
   letter-spacing: 0.2px;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "ITC_Avant_Garde_Gothic_LT_Book", 'Segoe UI', Arial, sans-serif !important;
 }
 .section-title {
   margin: 0 0 0.75rem 0;
@@ -43,48 +88,52 @@ html, body, #root {
   font-size: clamp(1.4rem, 3.6vw, 2rem);
   font-weight: 900;
   letter-spacing: 0.2px;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "Amaranth-Bold", 'Segoe UI', Arial, sans-serif !important;
 }
 .section-subtitle {
   font-weight: 750;
   font-size: clamp(1.25rem, 1.6vw, 1.2rem);
   color: #2f2f2f;
   margin-bottom: 0.25rem;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "Asul700", 'Segoe UI', Arial, sans-serif !important;
 }
 .section-subtitle-bigger {
   font-weight: 750;
   font-size: clamp(1.4rem, 3.6vw, 2rem);
   color: #2f2f2f;
   margin-bottom: 0.25rem;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "Asul700", 'Segoe UI', Arial, sans-serif !important;
 }
 .normal-text-small {
   font-size: clamp(0.85rem, 1vw, 0.9rem);
   color: #444;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "MinionPro-Cn_4", 'Segoe UI', Arial, sans-serif !important;
+  text-align: justify;
 }
 .normal-text {
   font-size: clamp(0.95rem, 1.4vw, 1rem);
   color: #444;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "MinionPro-Cn_4", 'Segoe UI', Arial, sans-serif !important;
+  text-align: justify;
 }
 .normal-text-bold {
   font-size: clamp(1rem, 1.4vw, 1.1rem);
   font-weight: 600;
   color: #444;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "MinionPro-SemiboldCn_1", 'Segoe UI', Arial, sans-serif !important;
+  text-align: justify;
 }
 .normal-text-bigger {
   font-size: clamp(1.25rem, 1.6vw, 1.2rem);
   color: #444;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "MinionPro-Cn_4", 'Segoe UI', Arial, sans-serif !important;
+  text-align: justify;
 }
 .filters-name {
   font-size: clamp(0.9rem, 1vw, 0.8rem);
   font-weight: 600;
   color: #444;
-  font-family: "AmericanoCond", 'Segoe UI', Arial, sans-serif !important;
+  font-family: "Proforma-LightItalic", 'Segoe UI', Arial, sans-serif !important;
 }
 
 
@@ -120,4 +169,13 @@ html, body, #root {
 .card:focus-within {
   outline: 3px solid rgba(109,44,91,0.12);
   outline-offset: 6px;
+}
+
+@media (min-width: 1000px) {
+  .home-slider-text {
+    color: #6d2c5b;
+    font-size: clamp(1.3rem, 3.75vw, 2.5rem);
+    font-weight: 600;
+    font-family: "MagnesiumMVBStd-Grime_1", 'Segoe UI', Arial, sans-serif !important;
+  }
 }

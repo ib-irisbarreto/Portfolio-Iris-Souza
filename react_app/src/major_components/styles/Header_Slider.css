@@ -136,3 +136,19 @@
   from { width: 0%; }
   to { width: 100%; }
 }
+
+@media (max-width: 500px) {
+  .slider-text {
+    right: 15%;
+  }
+}
+@media (max-width: 400px) {
+  .slider-text {
+    right: 10%;
+  }
+}
+@media (max-width: 100px) {
+  .slider-text {
+    right: 0%;
+  }
+}

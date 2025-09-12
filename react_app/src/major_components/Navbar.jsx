@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import { t } from "../translations";
 import logo from '/photos/logo.png';
-import cvFile from '/files/CV_IRIS_BARRETO_DE_SOUZA.pdf';
+import cvFile from '/CV_IRIS_BARRETO_DE_SOUZA.pdf';
 
 import './styles/Navbar.css';
 

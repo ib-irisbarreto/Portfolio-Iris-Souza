@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import { t } from "../translations";
 
@@ -18,6 +18,33 @@ export default function ProjectDetailsHeader({
   goTo,
   lang,
 }) {
+  const slideRef = useRef(null);
+  const imageRef = useRef(null);
+
+  const handleSlideFullscreen = () => {
+    if (slideRef.current) {
+      if (slideRef.current.requestFullscreen) {
+        slideRef.current.requestFullscreen();
+      } else if (slideRef.current.webkitRequestFullscreen) {
+        slideRef.current.webkitRequestFullscreen();
+      } else if (slideRef.current.msRequestFullscreen) {
+        slideRef.current.msRequestFullscreen();
+      }
+    }
+  };
+
+  const handleImageFullscreen = () => {
+    if (imageRef.current) {
+      if (imageRef.current.requestFullscreen) {
+        imageRef.current.requestFullscreen();
+      } else if (imageRef.current.webkitRequestFullscreen) {
+        imageRef.current.webkitRequestFullscreen();
+      } else if (imageRef.current.msRequestFullscreen) {
+        imageRef.current.msRequestFullscreen();
+      }
+    }
+  };
+
   return (
     <header className="project-details-hero carousel-hero" aria-roledescription="carousel">
       <div className="carousel-viewport" ref={carouselRef}>
@@ -45,8 +72,17 @@ export default function ProjectDetailsHeader({
                 role="group"
                 aria-roledescription="slide"
                 aria-label={`${index + 1} of ${slidesCount}`}
+                ref={slideRef}
               >
-                <img src={it.src} alt="" />
+                <img src={it.src} alt="" ref={imageRef} />
+                <button
+                  className="carousel-btn fullscreen"
+                  type="button"
+                  onClick={handleImageFullscreen}
+                  aria-label="View image fullscreen"
+                >
+                  ⛶
+                </button>
               </div>
             );
           })()

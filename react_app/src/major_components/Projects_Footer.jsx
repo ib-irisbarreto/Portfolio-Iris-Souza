@@ -8,7 +8,7 @@ import "./styles/Projects_Footer.css";
 export default function ProjectsFooter({ count }) {
   return (
     <section className="projects-footer">
-        <div className="normal-text-small">{count} {t("projects_footer_projectsShown")}</div>
+        <div className="normal-text-small" style={{ textAlign: "right" }}>{count} {t("projects_footer_projectsShown")}</div>
     </section>
   );
 }

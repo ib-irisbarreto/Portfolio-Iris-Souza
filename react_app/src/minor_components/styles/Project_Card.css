@@ -13,6 +13,7 @@
   box-shadow: 0 8px 30px rgba(0,0,0,0.08);
   color: white;
   padding: 1rem;
+  will-change: transform;
 }
 /* inner overlay layer to keep text readable */
 .project-card::after {

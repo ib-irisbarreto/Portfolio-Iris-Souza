@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import CvPage from './pages/CvPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetails from './pages/ProjectDetailsPage';
+import SiteFooter from './major_components/SiteFooter';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/projects/:id" element={<ProjectDetails />} />
         </Routes>
+        <SiteFooter />
       </Router>
     </div>
   );
